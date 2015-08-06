@@ -1,0 +1,13 @@
+PODS:
+  - SwiftHTTP (0.9.5)
+  - SwiftyJSON (2.2.0)
+
+DEPENDENCIES:
+  - SwiftHTTP (~> 0.9.5)
+  - SwiftyJSON (~> 2.2.0)
+
+SPEC CHECKSUMS:
+  SwiftHTTP: cd7b248bc07db02926ff54cf19b580b78f7abfa1
+  SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c
+
+COCOAPODS: 0.37.2

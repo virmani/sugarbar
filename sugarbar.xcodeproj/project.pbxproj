@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C93C3D871B5B341400D86DF4 /* BloodSugarFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93C3D861B5B341400D86DF4 /* BloodSugarFetcher.swift */; };
+		C9A3A09F1B4F993A001FA520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3A09E1B4F993A001FA520 /* AppDelegate.swift */; };
+		C9A3A0A11B4F993A001FA520 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A3A0A01B4F993A001FA520 /* Images.xcassets */; };
+		C9A3A0A41B4F993A001FA520 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A3A0A21B4F993A001FA520 /* MainMenu.xib */; };
+		C9A3A0B01B4F993A001FA520 /* sugarbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A3A0AF1B4F993A001FA520 /* sugarbarTests.swift */; };
+		E2B19D9C72CB58E4E10452AF /* Pods_sugarbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416626C0EC8502591E12CA49 /* Pods_sugarbar.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9A3A0AA1B4F993A001FA520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A3A0911B4F993A001FA520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A3A0981B4F993A001FA520;
+			remoteInfo = sugarbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AE1EEDBC420B929ED6E31DA /* Pods-sugarbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-sugarbar/Pods-sugarbar.release.xcconfig"; sourceTree = "<group>"; };
+		416626C0EC8502591E12CA49 /* Pods_sugarbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sugarbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A7059EB1B56AAABF588857 /* Pods-sugarbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sugarbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sugarbar/Pods-sugarbar.debug.xcconfig"; sourceTree = "<group>"; };
+		C93C3D861B5B341400D86DF4 /* BloodSugarFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BloodSugarFetcher.swift; sourceTree = "<group>"; };
+		C9A3A0991B4F993A001FA520 /* sugarbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sugarbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A3A09D1B4F993A001FA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A3A09E1B4F993A001FA520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9A3A0A01B4F993A001FA520 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9A3A0A31B4F993A001FA520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9A3A0A91B4F993A001FA520 /* sugarbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sugarbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A3A0AE1B4F993A001FA520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A3A0AF1B4F993A001FA520 /* sugarbarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sugarbarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A3A0961B4F993A001FA520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B19D9C72CB58E4E10452AF /* Pods_sugarbar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A3A0A61B4F993A001FA520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD01704E08810A5BC80FDC37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96A7059EB1B56AAABF588857 /* Pods-sugarbar.debug.xcconfig */,
+				0AE1EEDBC420B929ED6E31DA /* Pods-sugarbar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9A3A0901B4F993A001FA520 = {
+			isa = PBXGroup;
+			children = (
+				C9A3A09B1B4F993A001FA520 /* sugarbar */,
+				C9A3A0AC1B4F993A001FA520 /* sugarbarTests */,
+				C9A3A09A1B4F993A001FA520 /* Products */,
+				BD01704E08810A5BC80FDC37 /* Pods */,
+				E5894CDC616687AF2044C3A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A3A09A1B4F993A001FA520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A3A0991B4F993A001FA520 /* sugarbar.app */,
+				C9A3A0A91B4F993A001FA520 /* sugarbarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A3A09B1B4F993A001FA520 /* sugarbar */ = {
+			isa = PBXGroup;
+			children = (
+				C9A3A09E1B4F993A001FA520 /* AppDelegate.swift */,
+				C9A3A0A01B4F993A001FA520 /* Images.xcassets */,
+				C9A3A0A21B4F993A001FA520 /* MainMenu.xib */,
+				C9A3A09C1B4F993A001FA520 /* Supporting Files */,
+				C93C3D861B5B341400D86DF4 /* BloodSugarFetcher.swift */,
+			);
+			path = sugarbar;
+			sourceTree = "<group>";
+		};
+		C9A3A09C1B4F993A001FA520 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9A3A09D1B4F993A001FA520 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9A3A0AC1B4F993A001FA520 /* sugarbarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A3A0AF1B4F993A001FA520 /* sugarbarTests.swift */,
+				C9A3A0AD1B4F993A001FA520 /* Supporting Files */,
+			);
+			path = sugarbarTests;
+			sourceTree = "<group>";
+		};
+		C9A3A0AD1B4F993A001FA520 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9A3A0AE1B4F993A001FA520 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5894CDC616687AF2044C3A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416626C0EC8502591E12CA49 /* Pods_sugarbar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A3A0981B4F993A001FA520 /* sugarbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A3A0B31B4F993A001FA520 /* Build configuration list for PBXNativeTarget "sugarbar" */;
+			buildPhases = (
+				69938CE61DA20284DACDEA82 /* Check Pods Manifest.lock */,
+				C9A3A0951B4F993A001FA520 /* Sources */,
+				C9A3A0961B4F993A001FA520 /* Frameworks */,
+				C9A3A0971B4F993A001FA520 /* Resources */,
+				B36AA73DC502A68E6E3749DA /* Embed Pods Frameworks */,
+				8F1590880641749052DC72F4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sugarbar;
+			productName = sugarbar;
+			productReference = C9A3A0991B4F993A001FA520 /* sugarbar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9A3A0A81B4F993A001FA520 /* sugarbarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A3A0B61B4F993A001FA520 /* Build configuration list for PBXNativeTarget "sugarbarTests" */;
+			buildPhases = (
+				C9A3A0A51B4F993A001FA520 /* Sources */,
+				C9A3A0A61B4F993A001FA520 /* Frameworks */,
+				C9A3A0A71B4F993A001FA520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A3A0AB1B4F993A001FA520 /* PBXTargetDependency */,
+			);
+			name = sugarbarTests;
+			productName = sugarbarTests;
+			productReference = C9A3A0A91B4F993A001FA520 /* sugarbarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A3A0911B4F993A001FA520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ashish Virmani";
+				TargetAttributes = {
+					C9A3A0981B4F993A001FA520 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C9A3A0A81B4F993A001FA520 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C9A3A0981B4F993A001FA520;
+					};
+				};
+			};
+			buildConfigurationList = C9A3A0941B4F993A001FA520 /* Build configuration list for PBXProject "sugarbar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9A3A0901B4F993A001FA520;
+			productRefGroup = C9A3A09A1B4F993A001FA520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A3A0981B4F993A001FA520 /* sugarbar */,
+				C9A3A0A81B4F993A001FA520 /* sugarbarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9A3A0971B4F993A001FA520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A3A0A11B4F993A001FA520 /* Images.xcassets in Resources */,
+				C9A3A0A41B4F993A001FA520 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A3A0A71B4F993A001FA520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69938CE61DA20284DACDEA82 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F1590880641749052DC72F4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sugarbar/Pods-sugarbar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36AA73DC502A68E6E3749DA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sugarbar/Pods-sugarbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A3A0951B4F993A001FA520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A3A09F1B4F993A001FA520 /* AppDelegate.swift in Sources */,
+				C93C3D871B5B341400D86DF4 /* BloodSugarFetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A3A0A51B4F993A001FA520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A3A0B01B4F993A001FA520 /* sugarbarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9A3A0AB1B4F993A001FA520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A3A0981B4F993A001FA520 /* sugarbar */;
+			targetProxy = C9A3A0AA1B4F993A001FA520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9A3A0A21B4F993A001FA520 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A3A0A31B4F993A001FA520 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9A3A0B11B4F993A001FA520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A3A0B21B4F993A001FA520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9A3A0B41B4F993A001FA520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A7059EB1B56AAABF588857 /* Pods-sugarbar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sugarbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9A3A0B51B4F993A001FA520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE1EEDBC420B929ED6E31DA /* Pods-sugarbar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = sugarbar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9A3A0B71B4F993A001FA520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sugarbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sugarbar.app/Contents/MacOS/sugarbar";
+			};
+			name = Debug;
+		};
+		C9A3A0B81B4F993A001FA520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = sugarbarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sugarbar.app/Contents/MacOS/sugarbar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A3A0941B4F993A001FA520 /* Build configuration list for PBXProject "sugarbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A3A0B11B4F993A001FA520 /* Debug */,
+				C9A3A0B21B4F993A001FA520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A3A0B31B4F993A001FA520 /* Build configuration list for PBXNativeTarget "sugarbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A3A0B41B4F993A001FA520 /* Debug */,
+				C9A3A0B51B4F993A001FA520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A3A0B61B4F993A001FA520 /* Build configuration list for PBXNativeTarget "sugarbarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A3A0B71B4F993A001FA520 /* Debug */,
+				C9A3A0B81B4F993A001FA520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A3A0911B4F993A001FA520 /* Project object */;
+}
